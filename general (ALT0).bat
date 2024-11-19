@@ -4,6 +4,7 @@ chcp 65001 >nul
 
 cd /d "%~dp0"
 echo:
+
 set BIN=%~dp0bin\
 
 start "zapret: general" /min "%BIN%winws.exe" --wf-tcp=80,443 --wf-udp=443 ^
